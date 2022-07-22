@@ -4,6 +4,7 @@ import App from "./App";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
 import reducer from "./features/books/booksSlice";
+import rootReducer from "./reducer";
 
 const store = createStore(
   reducer,
